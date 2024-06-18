@@ -35,30 +35,30 @@ Installation
 ------------
 
 1. Clone the repository
-   ```
+   
    git clone https://github.com/your-username/financify-docker-CRUD.git
-   ```
+   
 2. Navigate to the project directory
-   ```
+   
    cd financify-docker-run/financify/
-   ```
+   
 3. Build and start the Docker container
-   ```
+   
    docker-compose up --build -d
-   ```
+   
 4. Open the PHP CRUD page in your browser
-   ```
+   
    http://www.financify.com
-   ```
+   
 Verify: 
-   ```
+   
    docker compose ps
-   ```
+   
 Remove
    Remove (full): 
-   ```
+   
       docker compose down -v —rmi all
-   ```
+   
 
 Usage
 -----
