@@ -18,6 +18,7 @@ This project is designed for:
    - Understand PHP fundamentals for web development.
    - Integrate MySQL databases with PHP applications.
    - Utilize Docker for containerized deployment.
+
 =======================================
 Template for the Read the Docs tutorial
 =======================================
