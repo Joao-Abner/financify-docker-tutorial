@@ -28,15 +28,3 @@ We configured Bind9 to give the browser the core app container IP whenever it se
    @ IN A {Core Application Container IP Address}
    web IN CNAME @
    www IN CNAME @
-
-- `$TTL 300;`: Specifies the default time-to-live (TTL) for DNS records, in seconds. This value determines how often the DNS resolver should refresh its cache for this zone.
-
-- `SOA (Start of Authority)` record: Provides authoritative information about the DNS zone, including the primary name server (`dns`), email of the administrator (`{email@domain.com}`), and several timers related to zone transfers and refresh intervals.
-
-- `NS (Name Server)` record: Declares the authoritative name server for the domain.
-
-- `A (Address)` records: Map the domain names (`@`, `dns`, `web`, `www`) to their corresponding IP addresses. The `@` symbol represents the root domain, while `dns`, `web`, and `www` are subdomains pointing to the root domain.
-
-- `CNAME (Canonical Name)` records: Alias one name to another. Here, both `web` and `www` are aliases for the root domain (`@`).
-
-By configuring Bind9 in this manner, we ensured that any attempt to access the application's domain names would correctly resolve to the IP address of the core application container, facilitating seamless access to the application.
