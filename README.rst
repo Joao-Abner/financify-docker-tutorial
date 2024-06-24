@@ -1,16 +1,7 @@
 Welcome to Financify-Docker's Documentation!
 ============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Table of Contents
-
-   installation
-   dns-configuration
-   usage
-
 Read the Docs documentation: https://financify-docker-tutorial.readthedocs.io/en/latest/
-
 
 Introduction
 ------------
@@ -27,6 +18,7 @@ This project is designed for:
    - Understand PHP fundamentals for web development.
    - Integrate MySQL databases with PHP applications.
    - Utilize Docker for containerized deployment.
+
 
 Template for the Read the Docs tutorial
 =======================================
