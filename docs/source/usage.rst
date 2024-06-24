@@ -1,34 +1,27 @@
+====================
 Usage
-=====
+====================
 
-.. _installation:
+This section provides guidance on interacting with the Financify-Docker-CRUD application.
 
-Installation
-------------
+**Creating a New Record**
+1. Navigate to the application's interface.
+2. Locate and click the "Create" button.
+3. Fill in the required fields.
+4. Submit the form to create the record.
 
-To use Lumache, first install it using pip:
+**Reading a Record**
+1. Access the application's interface.
+2. Click the "Read" button.
+3. Select a record to view its details.
 
-.. code-block:: console
+**Updating a Record**
+1. Go to the application's interface.
+2. Click the "Update" button next to the record you wish to edit.
+3. Modify the record details as needed.
+4. Save your changes by submitting the form.
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+**Deleting a Record**
+1. Open the application's interface.
+2. Click the "Delete" button next to the record you want to remove.
+3. Confirm the deletion.
