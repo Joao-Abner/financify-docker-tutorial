@@ -24,9 +24,9 @@ Key Features
 - **Docker Containerization:** Entire stack (PHP, MySQL) is containerized for seamless deployment.
 
 This project is designed for:
-- Understand PHP fundamentals for web development.
-- Integrate MySQL databases with PHP applications.
-- Utilize Docker for containerized deployment.
+   - Understand PHP fundamentals for web development.
+   - Integrate MySQL databases with PHP applications.
+   - Utilize Docker for containerized deployment.
 
 
 
