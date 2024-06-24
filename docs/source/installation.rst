@@ -3,15 +3,15 @@
 =====================
 
 1.  **Clone the repository:**
-
+.. code-block:: bash
         git clone https://github.com/your-username/financify-docker-CRUD.git
 
 2.  **Navigate to the project directory:**
-
+.. code-block:: bash
         cd financify-docker-CRUD/financify/
 
 3.  **Build and start Docker containers:**
-
+.. code-block:: bash
         docker-compose up --build -d
 
 4.  **Access the PHP CRUD page in your browser:**
@@ -19,11 +19,11 @@
     - [http://www.financify.com](http://www.financify.com)
 
 Verify containers status:
-
+.. code-block:: bash
        docker-compose ps
 
 To remove all containers, volumes, and images:
-
+.. code-block:: bash
        docker-compose down -v --rmi all
 
 =====================
@@ -37,22 +37,21 @@ This section outlines the process for deploying your application using Docker an
 
 2. **Repository Setup**
    - Clone the application repository to your local machine using Git:
-
-git clone https://github.com/your-username/financify-docker-CRUD.git
+.. code-block:: bash
+        git clone https://github.com/your-username/financify-docker-CRUD.git
 
 
 - Navigate to the project directory within the cloned repository:
-
-cd financify-docker-CRUD/financify/
+.. code-block:: bash
+        cd financify-docker-CRUD/financify/
 
 
 3. **Container Deployment**
    - Build and start the Docker containers defined in the project using Docker Compose:
+.. code-block:: bash
+        docker-compose up --build -d
 
-docker-compose up --build -d
-
-
-     This command builds the images if they don't exist and starts the containers in detached mode.
+This command builds the images if they don't exist and starts the containers in detached mode.
 
 4. **Accessing Your Application**
    - Once the containers are up and running, access your application by navigating to the provided URL in your web browser. For example:
@@ -61,14 +60,14 @@ docker-compose up --build -d
 
 5. **Monitoring Container Status**
    - To verify the status of the running containers, execute:
-
-docker-compose ps
+.. code-block:: bash
+        docker-compose ps
 
 
 6. **Cleaning Up**
    - When you're done testing or need to redeploy, you can stop and remove the containers, networks, and images created by the project with:
-
-docker-compose down -v --rmi all
+.. code-block:: bash
+        docker-compose down -v --rmi all
 
 
 For a comprehensive walkthrough and additional examples, please consult the relevant sections earlier in this documentation.
