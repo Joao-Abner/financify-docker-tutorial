@@ -20,11 +20,12 @@ Bind9 Configuration
 We configured Bind9 to give the browser the core app container IP whenever it searched for the application domains (see Installation). It looks like this:
 
 .. code-block:: none
-
+   
+   $ORIGIN financify.com.
    $TTL 300;
    @ IN SOA dns {email@domain.com}. (1 30 30 30 30);
    @ IN NS dns
    dns IN A {Virtual Machine IP Address}
    @ IN A {Core Application Container IP Address}
-   web IN CNAME @
+   web IN CNAME
    www IN CNAME @
