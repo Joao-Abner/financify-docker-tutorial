@@ -19,7 +19,7 @@ This project is designed for:
    - Integrate MySQL databases with PHP applications.
    - Utilize Docker for containerized deployment.
 
-=======================================
+
 Template for the Read the Docs tutorial
 =======================================
 
