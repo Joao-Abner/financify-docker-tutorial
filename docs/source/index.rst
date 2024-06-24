@@ -9,9 +9,6 @@ Welcome to Financify-Docker's Documentation!
    dns-configuration
    usage
 
-Read the Docs documentation: https://financify-docker-tutorial.readthedocs.io/en/latest/
-
-
 Introduction
 ------------
 
