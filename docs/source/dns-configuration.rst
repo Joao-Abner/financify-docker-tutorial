@@ -2,7 +2,7 @@
 DNS Configuration
 =================
 
-This section delves into the additional configurations required for the application beyond basic setup. While these configurations are not strictly necessary for local development, they play a crucial role in enhancing the application's accessibility and security, particularly when deployed in a production environment. Specifically, we'll cover DNS configuration and SSL certificate management.
+DNS configuration is crucial for CRUD projects, ensuring smooth internet connectivity and optimal performance by translating domain names into IP addresses, enhancing website accessibility and speed.
 
 **DNS (Domain Name System)**
 
