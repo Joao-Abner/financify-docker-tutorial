@@ -3,9 +3,11 @@ Welcome to Financify-Docker's Documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation
+   :caption: Table of Contents
 
-   installation.md
+   installation
+   dns-configuration
+   usage
 
 .. Read the Docs documentation: https://financify-docker-tutorial.readthedocs.io/en/latest/
 
